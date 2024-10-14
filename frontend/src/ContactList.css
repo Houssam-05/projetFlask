@@ -1,0 +1,51 @@
+/* ContactList.css */
+@import './app.css'; /* Importer les styles globaux */
+
+/* Styles spécifiques à ContactList */
+.ContactList {
+  margin-top: 40px;
+}
+
+.ContactList table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.ContactList th, .ContactList td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.ContactList th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.ContactList td {
+  text-align: left;
+}
+
+.ContactList button {
+  margin-right: 5px;
+}
+
+.contact-add-link {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #FB8C00;
+}
+
+.contact-add-link a {
+  color: #FB8C00;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.contact-add-link a:hover {
+  color: #FB8C00;
+  text-decoration: underline;
+}
+

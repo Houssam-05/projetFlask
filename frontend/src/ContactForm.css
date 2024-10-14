@@ -1,0 +1,82 @@
+/* ContactForm.css */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color:#FB8C00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.ContactForm {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.ContactForm h2 {
+  color: #FB8C00; /* Vert doux */
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.ContactForm div {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.ContactForm label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+  font-weight: 500;
+}
+
+.ContactForm input {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+  
+  
+}
+
+.ContactForm input:focus {
+  border-color: #FB8C00;
+  outline: none;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.2);
+  text-align: center;
+}
+
+.btn-create-contact {
+  background: #FF9800; /* Orange */
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.btn-create-contact:hover {
+  background: #FB8C00; /* Orange un peu plus foncé */
+}
+
+.btn-create-contact:active {
+  background: #F57C00; /* Orange plus foncé */
+}
+
+@media (max-width: 500px) {
+  .ContactForm {
+    padding: 20px;
+  }
+}
