@@ -1,0 +1,49 @@
+/* global.css */
+
+/* Palette de couleurs */
+:root {
+    --primary-color: #4CAF50;
+    --secondary-color: #f44336;
+    --background-color: #f4f7f6;
+    --font-color: #333;
+  }
+  
+  /* Typographie et body global */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+    color: var(--font-color);
+    background-image: url('https://img.freepik.com/vecteurs-libre/fond-ondule-espace-copie_52683-65230.jpg?size=626&ext=jpg'); /* Chemin de ton image */
+    background-size: cover; /* L'image couvre toute la zone */
+    background-position: center; /* L'image est centrée */
+    background-attachment: fixed; /* L'image reste fixe lorsque tu scroll */
+    background-repeat: no-repeat;
+  }
+  
+  /* Boutons réutilisables */
+  button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button:active {
+    background-color: #3e8e41;
+  }
+  
+  /* Titres réutilisables */
+  h2 {
+    color: var(--primary-color);
+  }
+  
